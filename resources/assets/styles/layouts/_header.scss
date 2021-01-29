@@ -1,0 +1,41 @@
+/* stylelint-disable no-descending-specificity */
+
+.banner .nav li {
+  @extend .nav-item;
+}
+
+.banner .nav a {
+  @extend .nav-link;
+}
+
+body.logged-in.admin-bar {
+  header.banner {
+    .container {
+      nav {
+        button.navbar-toggler {
+          @media screen and (max-width: 767px) {
+            top: 46px;
+          }
+        }
+      }
+    }
+  }
+}
+
+header {
+  background-color: map-get($theme-colors, primary);
+  position: relative;
+  padding: 1rem 0;
+
+  nav {
+    ul {
+      li {
+        a {
+          color: #fff;
+          text-transform: uppercase;
+          font-size: 15px;
+        }
+      }
+    }
+  }
+}

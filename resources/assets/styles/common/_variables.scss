@@ -1,0 +1,16 @@
+/** Import Bootstrap functions */
+@import "~bootstrap/scss/functions";
+
+$theme-colors: (
+  primary: #052649,
+  primary-opaque: rgba(84, 130, 143, 0.85),
+  charcoal: #404041,
+  light-blue: #a3c6d2,
+);
+
+/** Fonts */
+$brandon-grotesque: "brandon-grotesque", sans-serif;
+$tisa-pro: "ff-tisa-web-pro", serif;
+
+$navbar-dark-toggler-icon-bg: none;
+$navbar-light-toggler-icon-bg: none;
